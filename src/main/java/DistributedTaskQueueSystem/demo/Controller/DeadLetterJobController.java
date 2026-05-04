@@ -15,7 +15,7 @@ import lombok.RequiredArgsConstructor;
 import java.util.*;
 
 @RestController
-@RequestMapping("api/dead-letter-job")
+@RequestMapping("api/dead-letter-jobs")
 @RequiredArgsConstructor
 public class DeadLetterJobController {
     private final DeadLetterJobService deadLetterJobService;
